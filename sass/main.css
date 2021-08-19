@@ -294,6 +294,7 @@ SECTION-MAIN
   padding: 12px;
   margin-bottom: 30px;
   border-radius: 4px;
+  overflow: hidden;
 }
 
 .main-right-article figure {
