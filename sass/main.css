@@ -133,51 +133,43 @@ HEADER
   border-radius: 8px;
 }
 
-.banner input {
-  padding: 20px;
+.banner-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 70%;
-  margin-left: 115px;
+  background: #ffff;
+  padding: 3px;
+  margin: 0 auto;
   border-radius: 4px;
+}
+
+.banner-search div {
+  padding: 15px;
+  font-size: 1.2rem;
+  color: #B9BDCF;
+}
+
+.banner input {
+  width: 100%;
   outline: none;
   border: 0;
   font-family: Roboto;
   font-size: 1.2rem;
 }
 
-.banner input::-webkit-input-placeholder {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-}
-
-.banner input:-ms-input-placeholder {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-}
-
-.banner input::-ms-input-placeholder {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-}
-
-.banner input::placeholder {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-}
-
-.banner .btn-primary {
-  position: absolute;
-  top: 44px;
-  right: 180px;
-  font-size: 1.6rem;
-}
-
-@media (max-width: 940px) {
-  .banner input {
+@media (max-width: 750px) {
+  .banner .banner-search {
     width: 100%;
     margin-left: 0;
+    overflow: hidden;
   }
   .banner .btn-primary {
     right: 45px;
+    overflow: hidden;
   }
 }
 
@@ -233,9 +225,6 @@ CONTAINER
         -ms-flex-direction: column;
             flex-direction: column;
   }
-}
-
-@media (max-width: 530px) {
   .container .main-right {
     width: 100%;
     padding-left: 0;
@@ -270,17 +259,33 @@ ASIDE
   font-size: 1.4rem;
 }
 
+.aside-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  padding: 10px 0;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.aside-icons div {
+  color: #B9BDCF;
+  font-size: 1.2rem;
+  padding: 0 15px;
+}
+
 .aside-input {
   width: 100%;
-  padding: 15px 5px;
   border: 0;
   outline: none;
-  border-radius: 4px;
-  margin-bottom: 25px;
   font-size: 1.2rem;
   font-family: Roboto;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
 }
 
 .aside li {
@@ -304,6 +309,8 @@ SECTION-MAIN
   margin-bottom: 30px;
   border-radius: 4px;
   overflow: hidden;
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 .main-right-article figure {

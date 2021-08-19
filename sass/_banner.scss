@@ -6,37 +6,42 @@
     background-repeat: no-repeat;
     border-radius: 8px;
 
+        &-search{
+            display: flex;
+            align-items: center;
+            width: 70%;
+            background: #ffff;
+            padding: 3px;
+            margin: 0 auto;
+            border-radius: 4px;
+
+            div{
+                padding: 15px;
+                font-size: $font-size-h4;
+                color: $color-third;
+            }
+        }
+
         input{
-        padding: 20px;
-        width: 70%;
-        margin-left: 115px;
-        border-radius: 4px;
+        width: 100%;
         outline: none;
         border: 0;
         font-family: $font-primary;
         font-size: 1.2rem;
 
-            &::placeholder{
-                font-family: "Font Awesome 5 Free"; font-weight: 900;
-            }
         }
 
-        .btn-primary{
-            position: absolute;
-           top: 44px;
-           right: 180px;
-           font-size: 1.6rem;
-        }
+        @media (max-width:750px){
 
-        @media (max-width:940px){
-
-            input{
+            .banner-search{
                 width: 100%;
                 margin-left: 0;
+                overflow: hidden;
             }
 
             .btn-primary{
                 right: 45px;
+                overflow: hidden;
             }
         }
 

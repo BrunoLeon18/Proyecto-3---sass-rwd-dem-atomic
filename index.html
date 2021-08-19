@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./sass/main.css" />
     <title>Github jobs</title>
   </head>
@@ -15,36 +21,67 @@
       </header>
       <main class="main">
         <section class="banner">
+          <div class="banner-search">
+          <div>
+            <i class="fas fa-briefcase"></i>
+          </div>
           <input
             type="text"
-            placeholder="   Title,companies,expertise or benefits"
+            placeholder="Title,companies,expertise or benefits"
           />
           <button class="btn-primary">Search</button>
+        </div>
         </section>
         <div class="container">
           <aside class="aside">
             <input class="aside__checkbox" type="checkbox" id="fulltime" />
             <label for="fulltime">Full time</label>
             <h2>LOCATION</h2>
+            <div class="aside-icons">
+              <div>
+                <i class="fas fa-globe-americas"></i>
+              </div>
             <input
               class="aside-input"
               type="text"
-              placeholder="    City,state,zip code or country"/>
+              placeholder=" City,state,zip code or country"
+            />
+          </div>
             <ul>
               <li>
-                <input class="aside__radius" type="radio" name="london" id="london" />
+                <input
+                  class="aside__radius"
+                  type="radio"
+                  name="london"
+                  id="london"
+                />
                 <label for="london">London</label>
               </li>
               <li>
-                <input class="aside__radius" type="radio" name="Amsterdam" id="Amsterdam" />
+                <input
+                  class="aside__radius"
+                  type="radio"
+                  name="Amsterdam"
+                  id="Amsterdam"
+                />
                 <label for="">Amsterdam</label>
               </li>
               <li>
-                <input class="aside__radius" type="radio" name="New York" id="New York" />
+                <input
+                  class="aside__radius"
+                  type="radio"
+                  name="New York"
+                  id="New York"
+                />
                 <label for="">New York</label>
               </li>
               <li>
-                <input class="aside__radius" type="radio" name="Berlin" id="Berlin" />
+                <input
+                  class="aside__radius"
+                  type="radio"
+                  name="Berlin"
+                  id="Berlin"
+                />
                 <label for="">Berlin</label>
               </li>
             </ul>
@@ -92,7 +129,9 @@
                 <div class="item-box">
                   <button class="btn-secondary">Full time</button>
                   <div>
-                    <h4><i class="fas fa-globe-americas"></i> New York; Berlin</h4>
+                    <h4>
+                      <i class="fas fa-globe-americas"></i> New York; Berlin
+                    </h4>
                     <h4><i class="far fa-clock"></i> 5 days ago</h4>
                   </div>
                 </div>
@@ -131,13 +170,13 @@
               </div>
             </article>
             <ul class="list">
-                <li class="btn-third"><</li>
-                <li class="btn-third">1</li>
-                <li class="btn-third">2</li>
-                <li class="btn-third">3</li>
-                <li class="btn-third" style="border:0;color:#b7bcce ;">...</li>
-                <li class="btn-third">10</li>
-                <li class="btn-third">></li>
+              <li class="btn-third"><</li>
+              <li class="btn-third">1</li>
+              <li class="btn-third">2</li>
+              <li class="btn-third">3</li>
+              <li class="btn-third" style="border: 0; color: #b7bcce">...</li>
+              <li class="btn-third">10</li>
+              <li class="btn-third">></li>
             </ul>
           </section>
         </div>

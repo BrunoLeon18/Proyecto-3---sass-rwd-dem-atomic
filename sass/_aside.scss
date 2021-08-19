@@ -20,16 +20,29 @@ ASIDE
         font-size: $font-size-h3;
     }
 
+    &-icons{
+        display: flex;
+        align-items: center;
+        background-color: $color-secondary;
+        padding: 10px 0;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5) ;
+
+
+        div{
+            color: $color-third;
+            font-size: $font-size-h4;
+            padding: 0 15px;
+        }
+    }
+
     &-input{
         width: 100%;
-        padding: 15px 5px;
         border: 0;
         outline: none;
-        border-radius: 4px;
-        margin-bottom: 25px;
         font-size: $font-size-h4;
         font-family: $font-primary;
-        font-family: "Font Awesome 5 Free"; font-weight: 900;
 
     }
 
