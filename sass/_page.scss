@@ -1,0 +1,29 @@
+/*
+PAGES
+*/
+
+.list{
+    display: flex;
+    justify-content: flex-end;
+
+    li{
+        border:1px solid  #b7bcce;
+        text-align: center;
+        padding: 10px 0;
+        margin-left: 5px;
+        font-family: $font-primary;
+
+
+        &:hover{
+            border-color: $color-primary ;
+            color: $color-primary;
+        }
+
+        &:active{
+            background: $color-primary;
+            color: $color-secondary;
+        }
+    }
+
+    
+}

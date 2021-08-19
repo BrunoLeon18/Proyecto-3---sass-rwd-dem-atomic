@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Poppins;
+    src: url(/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/fonts/Roboto-Bold.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+input::placeholder{
+color: $color-third;
+padding-left: 10px;
+}

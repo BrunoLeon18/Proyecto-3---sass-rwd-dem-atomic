@@ -1,0 +1,11 @@
+.header{
+    h1{
+        margin-bottom: 2rem ;
+        font-size: $font-size-h1;
+        font-weight: 700;
+        font-family: $font-primary;
+        span{
+            font-weight:lighter;
+        }
+      }
+}

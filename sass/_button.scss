@@ -1,0 +1,26 @@
+@mixin button ($background,$color,$radius,$width){
+    width: $width;
+    background: $background;
+    color: $color;
+    border-radius:$radius;
+}
+
+.btn{
+    &-primary{
+        @include button($color-primary, $color-secondary, 4px, 146px);
+        height: 47px;
+        border-color: $color-primary;
+    }
+
+    &-secondary{
+        @include button($color-secondary,$color-four,4px,65px);
+        border-color: $color-four;
+        font-size: $font-size-h4;
+        height: 26px
+    }
+
+    &-third{
+        @include button($background-color,$color-third,4px,36px);
+        border-color:$color-third;
+    }
+}

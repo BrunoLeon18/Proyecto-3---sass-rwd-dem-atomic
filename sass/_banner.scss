@@ -1,0 +1,50 @@
+.banner{
+    background: black;
+    padding: 40px;
+    position: relative;
+    background:url(https://picsum.photos/960/200);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+
+        input{
+        padding: 20px;
+        width: 70%;
+        margin-left: 115px;
+        border-radius: 4px;
+        outline: none;
+        border: 0;
+        font-family: $font-primary;
+        font-size: 1.2rem;
+
+            &::placeholder{
+                font-family: "Font Awesome 5 Free"; font-weight: 900;
+            }
+        }
+
+        .btn-primary{
+            position: absolute;
+           top: 44px;
+           right: 180px;
+           font-size: 1.6rem;
+        }
+
+        @media (max-width:940px){
+
+            input{
+                width: 100%;
+                margin-left: 0;
+            }
+
+            .btn-primary{
+                right: 45px;
+            }
+        }
+
+        @media (max-width:425px){
+
+            .btn-primary{
+                width: 80px;
+            }
+        }
+      
+}

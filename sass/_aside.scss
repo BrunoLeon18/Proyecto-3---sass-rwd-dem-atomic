@@ -1,0 +1,40 @@
+/*
+ASIDE
+*/
+
+.aside{
+    width: 30%;
+    font-family: $font-secondary;
+
+    label{
+        color: $color-four;
+        font-weight: 500;
+        font-family: $font-secondary;
+        font-size: $font-size-h3;
+    }
+
+    h2{
+        color: $color-third;
+        padding: 20px 0;
+        font-weight: 700;
+        font-size: $font-size-h3;
+    }
+
+    &-input{
+        width: 100%;
+        padding: 15px 5px;
+        border: 0;
+        outline: none;
+        border-radius: 4px;
+        margin-bottom: 25px;
+        font-size: $font-size-h4;
+        font-family: $font-primary;
+        font-family: "Font Awesome 5 Free"; font-weight: 900;
+
+    }
+
+    li{
+        margin-bottom: 15px;
+    }
+
+}
