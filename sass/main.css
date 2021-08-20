@@ -417,6 +417,9 @@ SECTION-MAIN
     font-size: 1.6rem;
     text-align: left;
   }
+  .main-right button {
+    width: 80px;
+  }
 }
 
 /*
