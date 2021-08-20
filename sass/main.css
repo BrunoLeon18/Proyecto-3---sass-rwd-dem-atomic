@@ -418,7 +418,8 @@ SECTION-MAIN
     text-align: left;
   }
   .main-right button {
-    width: 80px;
+    width: 50%;
+    font-size: 1rem;
   }
 }
 
